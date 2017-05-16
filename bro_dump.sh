@@ -18,3 +18,4 @@ fi
 #switch -e allows for tab completion 
 read -ep "pcap plz : " pcap
 bro -C -r "$pcap" policy/misc/dump-events.bro  "PacketFilter::default_capture_filter = \"""$filter""\"" local >> dump.log
+ 
