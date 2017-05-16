@@ -4,7 +4,7 @@
 
 event ssl_alert(c: connection, is_orig: bool, level: count, desc: count)
 {
-  if (!is_orig && desc == |40|)
+  if (!is_orig && desc == 40)
   {
     SumStats::observe("odd SSL failure",
                       SumStats::Key($host=c$id$orig_h),
