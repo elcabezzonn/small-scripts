@@ -1,5 +1,5 @@
 #saw this traffic in 2017-04-25-Smoke-Loader-post-infection-traffic.pcap on malwaretrafficanalysis.net if anyones interested to look
-
+#definitely a test script, supposed to run over pcaps, where you can easily identify the local host 
 
 
 event ssl_alert(c: connection, is_orig: bool, level: count, desc: count)
