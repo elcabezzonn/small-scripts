@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2017-07-14-16-34-54
+#fields	ts	id	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count
+1493087347.335560	FbTbVe2reBAy8Oip1a	3	5A0003CE68ACD95B5297F3165100010003CE68	CN=msdn.microsoft.com	CN=Microsoft IT SSL SHA2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	1467864270.000000	1523073870.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	msdn.microsoft.com,server1.msdn.microsoft.com,server2.msdn.microsoft.com,server3.msdn.microsoft.com	-	-	-	-	-
+1493087347.335560	FSg6Pz24xU9yp4u2s3	3	07279AA9	CN=Microsoft IT SSL SHA2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	CN=Baltimore CyberTrust Root,OU=CyberTrust,O=Baltimore,C=IE	1387501652.000000	1513732015.000000	rsaEncryption	sha256WithRSAEncryption	rsa	4096	65537	-	-	-	-	-	T	0
+1493087347.335560	FPauVh3zAINyS6DNpg	3	020000B9	CN=Baltimore CyberTrust Root,OU=CyberTrust,O=Baltimore,C=IE	CN=Baltimore CyberTrust Root,OU=CyberTrust,O=Baltimore,C=IE	958171560.000000	1747108740.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	3
+#close	2017-07-14-16-34-54

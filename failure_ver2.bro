@@ -2,6 +2,16 @@
 #definitely a test script, supposed to run over pcaps, where you can easily identify the local host 
 
 
+export {
+        redef enum Notice::Type += { 
+                multiple_ssl_failures::Found 
+        };
+
+
+
+
+
+
 event ssl_alert(c: connection, is_orig: bool, level: count, desc: count)
 {
   if (!is_orig && desc == 40)
@@ -31,8 +41,14 @@ event bro_init()
 
                     $threshold_crossed(key: SumStats::Key, result: SumStats::Result) =
                                 {
-                                print fmt("%s more than 5 failed ssl connections within 5 seconds", key$host);
-                                }]);
+                                NOTICE([$note=multiple_ssl_failures::Found,
+                                        $msg=fmt("%s did more than 5 failed ssl connections within 5 seconds", key$host)
+                                      ]);
+                }]);
+#                                print fmt("%s more than 5 failed ssl connections within 5 seconds", key$host);
+#                                }]);
+}
+
 }
 
 

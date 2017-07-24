@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2017-07-14-16-34-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	cert_chain_fuids	client_cert_chain_fuids	subject	issuer	client_subject	client_issuer
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	vector[string]	vector[string]	string	string	string	string
+1493087330.357375	CVJwYu2nvhPZUSXCj3	10.4.25.101	1029	23.40.69.85	443	-	-	-	-	F	handshake_failure	-	F	-	-	-	-	-	-
+1493087335.430362	CmNKkY2razpvgcpzI2	10.4.25.101	1032	23.0.208.16	443	-	-	-	-	F	handshake_failure	-	F	-	-	-	-	-	-
+1493087340.349443	C2FIT73oAGCvV78JC1	10.4.25.101	1035	23.40.69.85	443	-	-	-	-	F	handshake_failure	-	F	-	-	-	-	-	-
+1493087341.738166	CGDOTy2ppA3ftFOAw1	10.4.25.101	1038	23.0.208.16	443	-	-	-	-	F	handshake_failure	-	F	-	-	-	-	-	-
+1493087346.914699	CkG53bUNh5UdncZe7	10.4.25.101	1051	157.56.148.19	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	F	-	-	T	FbTbVe2reBAy8Oip1a,FSg6Pz24xU9yp4u2s3,FPauVh3zAINyS6DNpg	(empty)	CN=msdn.microsoft.com	CN=Microsoft IT SSL SHA2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-
+1493087342.477881	C6DyGQ3CKiGARM8l01	10.4.25.101	1040	23.40.69.85	443	-	-	-	-	F	handshake_failure	-	F	-	-	-	-	-	-
+1493087344.113513	CG9rRZ16PTVOcL1p7	10.4.25.101	1044	23.40.69.85	443	-	-	-	-	F	handshake_failure	-	F	-	-	-	-	-	-
+1493087345.011964	CKqjed3s8au4p3nR95	10.4.25.101	1046	23.40.69.85	443	-	-	-	-	F	handshake_failure	-	F	-	-	-	-	-	-
+1493087345.697074	CPlge04DRospMiqfB4	10.4.25.101	1048	23.40.69.85	443	-	-	-	-	F	handshake_failure	-	F	-	-	-	-	-	-
+#close	2017-07-14-16-34-54

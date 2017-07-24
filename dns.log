@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2017-07-14-16-34-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1493087324.776308	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	64803	0.000288	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-bing-com.a-0001.a-msedge.net,a-0001.a-msedge.net,204.79.197.200,13.107.21.200	3.000000,3.000000,27.000000,27.000000	F
+1493087329.932411	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	26102	0.027531	support.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ev.support.microsoft.com.edgekey.net,e3843.g.akamaiedge.net,23.40.69.85	3465.000000,11971.000000,20.000000	F
+1493087334.493641	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	44585	0.000387	go.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	go.microsoft.com.edgekey.net,e11290.dspg.akamaiedge.net,23.40.70.75	1302.000000,480.000000,20.000000	F
+1493087334.847434	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	63594	0.000366	www.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.microsoft.com-c-2.edgekey.net,www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net,e1863.dspb.akamaiedge.net,23.0.208.16	2955.000000,17083.000000,255.000000,6.000000	F
+1493087339.038015	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	65468	0.002066	www.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.adobe.com.edgekey.net,e4578.b.akamaiedge.net,23.0.209.5	60.000000,15392.000000,19.000000	F
+1493087341.104071	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	5318	0.028026	www.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.microsoft.com-c-2.edgekey.net,www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net,e1863.dspb.akamaiedge.net,23.0.208.16	2948.000000,17076.000000,248.000000,20.000000	F
+1493087342.845016	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	41681	0.005256	aoids03wkde38.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.154.72.149	1799.000000	F
+1493087346.416450	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	62343	0.039989	msdn.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	msdn.microsoft.akadns.net,157.56.148.19	3600.000000,600.000000	F
+1493087348.430804	CUWunJ2WRwkdrPILbf	10.4.25.101	1025	10.4.25.1	53	udp	1539	0.000501	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	2-01-3cf7-0009.cdx.cedexis.net,fg.download.windowsupdate.com.c.footprint.net,8.254.230.158,8.253.68.14,8.254.247.78,8.253.45.248,8.254.242.14	2104.000000,154.000000,94.000000,94.000000,94.000000,94.000000,94.000000	F
+#close	2017-07-14-16-34-54
