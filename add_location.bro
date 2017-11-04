@@ -1,3 +1,6 @@
+@load base/protocols/http/main
+@load base/protocols/http/utils
+
 module HTTP;
 
 export {
@@ -19,3 +22,4 @@ event http_header(c: connection, is_orig: bool, name: string, value: string)
         c$http$location = value;
     }
 }
+
